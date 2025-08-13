@@ -41,15 +41,15 @@ jobs:
         uses: accelQ-Inc/accelq-ci-github-actions@v1.4
         with:
           # Your ACCELQ Application URL in the exact following format: https://<hostname>:<port_num>
-          appURL: https://clearoneadvantage.accelq.io/awb/api/2.0/clearoneadvantage/Mastercopy_Salesforce_092623/test-exec/jobs/templates/69438/run
+          appURL: 'https://clearoneadvantage.accelq.io/awb/api/2.0/clearoneadvantage/Mastercopy_Salesforce_092623/test-exec/jobs/templates/69438/run'
           # Your ACCELQ User ID
-          userName: ngupta@clearoneadvantage.com
+          userName: 'ngupta@clearoneadvantage.com'
           # API key available in Profile section of ACCELQ
-          apiKey: 9VGvawx1-jHSY-LO2yFbhb-eWDahZheo_mOodxoP_qM
+          apiKey: '9VGvawx1-jHSY-LO2yFbhb-eWDahZheo_mOodxoP_qM'
           # Tenant Code displayed in the Profile section of ACCELQ
-          tenantCode: clearoneadvantage
+          tenantCode: 'clearoneadvantage'
           # This ID should come from the CI job you saved in ACCELQ application
-          jobId: 69438
+          jobId: '69438'
           # Run Params(optional) should be JSON string form example: '{"username": "John Todd", "password": "bxW&=UVw"}'
           #runParam: 
           # Proxy Host (optional)
