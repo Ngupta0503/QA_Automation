@@ -41,7 +41,7 @@ jobs:
         uses: accelQ-Inc/accelq-ci-github-actions@v1.4
         with:
           # Your ACCELQ Application URL in the exact following format: https://<hostname>:<port_num>
-          appURL: 'https://nguptalaptop2:49856'
+          appURL: 'https://clearoneadvantage.accelq.io/'
           # Your ACCELQ User ID
           userName: 'ngupta@clearoneadvantage.com'
           # API key available in Profile section of ACCELQ
