@@ -41,7 +41,7 @@ jobs:
         uses: accelQ-Inc/accelq-ci-github-actions@v1.4
         with:
           # Your ACCELQ Application URL in the exact following format: https://<hostname>:<port_num>
-          appURL: 'https://EC2AMAZ-3IOQNS1:51458'
+          appURL: 'https://nguptalaptop2:49856'
           # Your ACCELQ User ID
           userName: 'ngupta@clearoneadvantage.com'
           # API key available in Profile section of ACCELQ
@@ -49,7 +49,7 @@ jobs:
           # Tenant Code displayed in the Profile section of ACCELQ
           tenantCode: 'clearoneadvantage'
           # This ID should come from the CI job you saved in ACCELQ application
-          jobId: '69438'
+          jobId: '69439'
           # Run Params(optional) should be JSON string form example: '{"username": "John Todd", "password": "bxW&=UVw"}'
           #runParam: 
           # Proxy Host (optional)
