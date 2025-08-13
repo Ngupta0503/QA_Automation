@@ -41,7 +41,7 @@ jobs:
         uses: accelQ-Inc/accelq-ci-github-actions@v1.4
         with:
           # Your ACCELQ Application URL in the exact following format: https://<hostname>:<port_num>
-          appURL: 'https://clearoneadvantage.accelq.io/awb/api/2.0/clearoneadvantage/Mastercopy_Salesforce_092623/test-exec/jobs/templates/69438/run'
+          appURL: 'https://EC2AMAZ-3IOQNS1:51458'
           # Your ACCELQ User ID
           userName: 'ngupta@clearoneadvantage.com'
           # API key available in Profile section of ACCELQ
